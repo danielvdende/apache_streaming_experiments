@@ -19,4 +19,8 @@ nohup bin/kafka-server-start.sh config/server.properties > kafka.out &
 
 
 # setup producer script
-sudo yum -y install python-
+sudo yum -y install python-virtualenv
+
+virtualenv env
+source env/bin/activate
+pip install kafka-python
