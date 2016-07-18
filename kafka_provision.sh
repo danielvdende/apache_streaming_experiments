@@ -16,3 +16,7 @@ nohup bin/zookeeper-server-start.sh config/zookeeper.properties > zookeeper.out 
 
 # start kafka
 nohup bin/kafka-server-start.sh config/server.properties > kafka.out &
+
+
+# setup producer script
+sudo yum -y install python-
