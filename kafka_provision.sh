@@ -22,5 +22,5 @@ nohup bin/kafka-server-start.sh config/server.properties > kafka.out &
 sudo yum -y install python-virtualenv
 
 virtualenv /home/vagrant/env
-source env/bin/activate
+source /home/vagrant/env/bin/activate
 pip install kafka-python
